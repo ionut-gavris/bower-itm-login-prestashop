@@ -1,0 +1,228 @@
+/*
+Template: 	This file is specific for PRESTASHOP v1.6 projects of IT Maniax
+Info: 		This file will contain admin authentication
+Web:		http://www.itmaniax.com
+*/
+/******************************************************************************/
+/******************************************************************************/
+html body {
+    background-image: url('../../bower/itm-assets/img/admin/login/login-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;	
+}
+html {
+	overflow-y: auto;
+}
+.bootstrap #login-header .text-center {
+	display: none!important;
+}
+.bootstrap #shop-img {
+	position: relative;
+	text-align: center;
+	left: auto;
+	right: auto;
+	width: auto;
+	margin: auto;
+}
+.bootstrap #login-panel .flip-container {
+	height: 490px;
+	padding-bottom: 20px;
+	margin-top: 0;
+}
+.bootstrap #login-footer,
+.bootstrap label.control-label {
+	display: none;
+}
+.bootstrap input.form-control {
+	position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #509cfd;
+    border-radius: 0;
+    padding: 10px 15px!important;
+    margin: 0;	
+}
+#powered {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.bootstrap #shop-img a {
+	background-image: url('../../bower/itm-assets/img/itm-logo-gradient-blue.png');
+    width: 100%;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+}
+.bootstrap #login-panel .panel {
+    padding: 65px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.9);
+}
+.bootstrap .btn[type="submit"] {
+    width: 100%;
+    height: 48px;
+    line-height: normal;
+    padding: 0;
+    background: transparent;
+    text-shadow: none;
+    color: #509cfd;
+    border-radius: 0;
+    border: 2px solid;
+    border-color: #509cfd;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.bootstrap .btn[type="submit"]:hover {
+	background-color: #509cfd;
+	border-color: transparent;
+    color: #FFF;
+}
+.bootstrap a,
+.bootstrap label {
+    color: #343434;
+    font-size: 14px;
+}
+.bootstrap a:hover {
+    color: #509cfd;
+    text-decoration: none;
+}
+.bootstrap #login-header {
+	margin-bottom: 0;
+	padding: 20px 0 0 0;
+}
+.front-panel .forgot-password-info {
+	display: none;
+}
+.back-panel .forgot-password-info {
+	display: block;
+}
+.bootstrap .panel .panel-footer {
+	background-color: transparent;
+}
+.bootstrap .panel .panel-footer .btn.show-login-form {
+	border: none;
+    background: transparent;
+    color: #343434;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 35px;
+}
+.bootstrap .panel .panel-footer .btn.show-login-form:hover,
+.bootstrap .panel .panel-footer .btn.show-login-form:hover i {
+	color: #509cfd;
+}
+.bootstrap .panel .panel-footer .btn.show-login-form:focus,
+.bootstrap .panel .panel-footer .btn.show-login-form:active {
+	outline: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.bootstrap .alert {
+	margin-bottom: 20px;
+}
+.bootstrap .alert {
+	background-color: rgba(255, 255, 255,.9);
+    color: #444;
+    border-radius: 0;
+}
+.bootstrap .alert.alert-info {
+    border-left: 5px solid #4AC7DF;
+}
+.bootstrap .alert.alert-danger {
+    border-left: 5px solid #D27C82;
+}
+.bootstrap ol {
+	padding-left: 15px;
+}
+.bootstrap .back-panel .alert.alert-danger {
+	margin-bottom: 10px;
+}
+.icon-question-circle:before, 
+.icon-question-sign:before, 
+#content .process-icon-help-new:before, 
+#content .process-icon-help:before, 
+.bootstrap .alert.alert-info:before, 
+.bootstrap #carrier_wizard .alert-info.wizard_error:before,
+.icon-warning:before, 
+.icon-exclamation-triangle:before, 
+.icon-warning-sign:before, 
+.bootstrap .alert.alert-danger:before, 
+.bootstrap #carrier_wizard .wizard_error:before {
+	content: "";
+}
+.bootstrap .alert.alert-info, 
+.bootstrap #carrier_wizard .alert-info.wizard_error,
+.bootstrap .alert.alert-danger {
+	padding-left: 15px;
+}
+/* Bullet - START */
+.bootstrap .form-group {
+	position: relative;
+}
+.bullet {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: #509cfd;
+	border-radius: 50%;
+    bottom: -5px;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	left: 0;
+}
+input:focus + .bullet,
+input:focus + .bullet {
+	margin-left: -10px;
+	left: 100%;
+}
+/* Bullet - STOP */
+/* Input - START */
+input {
+	position: relative;
+	font-size: 18px;
+	font-weight: 600;
+	border: none;
+	background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #509cfd;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+input::-webkit-input-placeholder {
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+
+input::-moz-placeholder{  /* Firefox 19+ */
+	font-weight: 100;
+	color: rgba(52,52,52,.7); 
+}
+
+input:-ms-input-placeholder {
+	font-weight: 100;
+	color: rgba(52,52,52,.7);
+}
+/* Input - STOP */
+/******************************************************************************/
+/******************************************************************************/
