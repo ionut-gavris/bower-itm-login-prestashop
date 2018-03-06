@@ -6,7 +6,7 @@ Web:		http://www.itmaniax.com
 /******************************************************************************/
 /******************************************************************************/
 html body {
-    background-image: url('../../bower/itm-assets/img/admin/login/login-background.jpg');
+    background-image: url('../../itm-media/img/admin/login/login-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ html {
     margin-bottom: 15px;
 }
 .bootstrap #shop-img a {
-	background-image: url('../../bower/itm-assets/img/itm-logo-gradient-blue.png');
+	background-image: url('../../itm-media/img/itm-logo-gradient-blue.png');
     width: 100%;
     height: 60px;
     background-size: contain;

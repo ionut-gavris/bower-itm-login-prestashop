@@ -1,6 +1,6 @@
 {
   "name": "itm-login-prestashop",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "dependencies": {
     "itm-media": "^1.0.0"
   }
